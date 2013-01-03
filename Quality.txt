@@ -1,0 +1,7 @@
+Quality is seven attributes – Glass (portability, reliability, efficiency, usability, testability, understandability, modifiability) 
+Quality is conformance to requirements – Crosby 
+Quality is fitness for use – Deming 
+Quality is value to some person – Weinberg 
+Quality is whatever the customer decides quality is – Ginac 
+Quality is an attitude or state of mind – Juran 
+

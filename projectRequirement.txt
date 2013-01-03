@@ -1,0 +1,14 @@
+User sign up
+Users job listing page,
+Contractor bidding function,
+Bid time function,
+Contractor Directory
+Search job categories/contractors
+Online payment page
+User control panel where they can see all jobs posted, bids, post jobs and allows profile updates, settings editing and allows users to send a receive messages.
+Contractor control panel where contractors can bid and view the latest jobs, edit settings, update profiles, and allows contractors to send a receive messages.
+Admin panel;
+where different admin users will be defined, 
+where admin users manage users, contractors, jobs, auto mails, payments, invoices, adverts, tickets, invoices, CMS, and some other functions. I want admin to have full control of the site. 
+
+
