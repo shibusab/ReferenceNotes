@@ -1,0 +1,41 @@
+Debugging ASP.NET Web Projects in SharpDevelop IDE
+
+Was trying to test an asp.net site in SharpDevelop IDE in Windows Environment.
+Issue is:We cannot fire up web page like Visual Studio, since it requires a webserver
+
+SharpDevelop IDE gives options to specify webserver and its parameters, and needs a webserver.
+
+Install Webserver
+ Went for IIS Express, since it is sleek and configurable
+ Downloaded from:
+ https://www.microsoft.com/en-us/download/details.aspx?id=48264
+ 
+ Installation and Setup. 
+ IIS Express gets installed under Program Files or Program Files (x86) based on 64bit systems.
+ IIS Express doesn't have any interface to manage like IIS
+ 
+ To Start go to install location in command prompt and
+ iisexpress  (to start webserver)
+ 
+ iisexpress /? gives its help, which is pretty clear
+ 
+ Command window will be left opened till iisexpress running, and it prints history of all requests in this window.
+ Exit/Quit IISExpress, type Q at prompt.
+ 
+   
+ Configuring IIS Express From Sharp Develop
+ Uses:SharpDevelop Version : 5.1.0.5216-0e58df71
+ 
+ From Project Properties in Debug Tab
+
+a)Choose Start External Program and give Path to IIS Express 
+	Eg."c:\Program Files (x86)\IIS Express\iisexpress.exe"
+
+b)In Start Options, Command Line Arguments, give path for Project File
+	Eg./path:"C:\Users\myUserName\Documents\SharpDevelop Projects\ShippingSample\ShippingSample"
+	
+Once the above settings are done, Press F5 key or Run the Web application, and web page opens in browser
+ 
+ 
+ 
+ 
